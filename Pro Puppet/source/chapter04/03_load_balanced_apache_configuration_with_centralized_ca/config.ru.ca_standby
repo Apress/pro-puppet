@@ -1,0 +1,24 @@
+# /etc/puppet/rack/puppetmaster_18143/config.ru
+#
+# This configuration is valid for Puppet 2.6
+# Puppet 2.7 and later may require slightly different rack
+# configuration.  Please see docs.puppetlabs.com for up to date
+# information.
+#
+# a config.ru, for use with every rack-compatible webserver.
+$0 = "master"
+# if you want debugging, uncomment the next line
+# ARGV << "--debug"
+
+# This puppetmaster instance will be the "standby" or "secondary" certificate authority
+# The standby certificate authority will use a different certificate authority directory
+# since we're running both the primary and the secondary on the same host in the book.
+# We recommend running the primary and secondary CA on two different machines which
+# will allow both to have the same filesystem path configured.  The primary system should
+# periodically replicate itself to the secondary.
+ARGV << "--cadir" << "/var/lib/puppet/ssl/ca.standby"
+ARGV << "--rack"
+
+require 'puppet/application/master'
+run Puppet::Application[:master].run
+# EOF /etc/puppet/rack/puppetmaster/config.ru

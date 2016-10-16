@@ -1,0 +1,91 @@
+--- !ruby/object:Puppet::Node
+  classes: 
+    - motd_location
+    - accounts_ruby
+  environment: &id002 production
+  expiration: 2011-02-24 12:30:42.481350 -05:00
+  name: login.example.com
+  parameters: 
+    kernel: Linux
+    netmask: 255.255.255.0
+    processorcount: "1"
+    swapfree: 375.75 MB
+    physicalprocessorcount: "0"
+    operatingsystemrelease: "6.0"
+    fqdn: debian.puppetlabs.vm
+    uniqueid: 007f0101
+    lsbmajdistrelease: "6"
+    !ruby/sym _timestamp: Thu Feb 24 12:00:42 -0500 2011
+    ipaddress: 192.168.69.132
+    memorysize: 502.58 MB
+    is_virtual: "true"
+    virtual: vmware
+    clientversion: &id001 2.6.4
+    rubysitedir: /usr/local/lib/site_ruby/1.8
+    ps: ps -ef
+    hardwaremodel: i686
+    kernelrelease: 2.6.32-5-686
+    domain: puppetlabs.vm
+    macaddress_eth0: 00:0c:29:fa:f8:75
+    netmask_eth0: 255.255.255.0
+    timezone: EST
+    id: root
+    uptime_days: "1"
+    lsbdistrelease: "6.0"
+    manufacturer: "VMware, Inc."
+    type: Other
+    uptime_hours: "26"
+    selinux: "false"
+    interfaces: eth0
+    memoryfree: 393.30 MB
+    hardwareisa: unknown
+    processor0: Intel(R) Core(TM)2 Duo CPU     P8800  @ 2.66GHz
+    enc_location: Florida
+    lsbdistcodename: squeeze
+    kernelversion: 2.6.32
+    lsbdistdescription: Debian GNU/Linux 6.0 (squeeze)
+    path: /var/lib/puppet/src/puppet/sbin:/var/lib/puppet/src/puppet/bin:/var/lib/puppet/src/facter/bin:/var/lib/puppet/src/puppet-scaffold/bin:/var/lib/puppet/src/puppet-module-tool/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin
+    uptime: 1 day
+    hostname: debian
+    puppetversion: *id001
+    environment: *id002
+    account_resources: 
+      alice: 
+        comment: Alice
+        groups: 
+          - sudo
+          - sudo_nopw
+          - devel
+        gid: 601
+        uid: 601
+        shell: /bin/bash
+        home: /home/alice
+        password: "!!"
+      bob: 
+        comment: Bob
+        groups: 
+          - sudo
+          - sudo_nopw
+          - ops
+        gid: 602
+        uid: 602
+        shell: /bin/zsh
+        home: /home/bob
+        password: "!!"
+    facterversion: 1.5.8
+    sshrsakey: AAAAB3NzaC1yc2EAAAADAQABAAABAQC2kQq6JhXLvdeJJ6hR1AMx4RMA/vzoSE16NHgQL/rNmr5CbM1amnPccoCqSZMCQD4g8FVgPE1QhJp0hDwBY4POCVk/UZ7zz4oIDsKUjDFxclkKu26F442i07Gx/hAiHQeUYrTq92ypvQZ98yDJoUbi7I2//vyIZg4NlltGyWXvZdHlsBXlFau4cH6DoHhNM+ELXMKPf/JfrCd9v92L8LbU07u18tWLW3t0VfbMh7Tk/MydrD1aIYMoRZOkST31kdFvy9/T2Gvf8qGV3F7gjAusnEcRVxndqDW/fpprbbZLXG+hci9yKqT1vb/cR5x7SjoBE6BxOmsPqFnXYoPeqSPd
+    serialnumber: VMware-56 4d 84 91 f4 d3 e5 7f-a9 d1 52 11 0e fa f8 75
+    ipaddress_eth0: 192.168.69.132
+    macaddress: 00:0c:29:fa:f8:75
+    operatingsystem: Debian
+    kernelmajversion: "2.6"
+    swapsize: 375.99 MB
+    rubyversion: 1.8.7
+    architecture: i386
+    sshdsakey: AAAAB3NzaC1kc3MAAACBAJMjWDP1S7JI7/YIOQvDAiwvFsyC6ZgWKZjqoh/+UTV4BdkF+Vc2E1e1Otrs9PIimFrhwfyo1XWuXUJfv1pFLGDGpPxOGhNLTwzb8YKHGMDtCVYANc8KxJvPIXC9N1+l6l25CGsJocqfpecHAr6hU5lW1ZF/KJSaWbtAovg6SqDRAAAAFQDnSfUH/SBh9QjgC+WEqfcXfQQeKQAAAIAHBKA3HWiRlbFFnOZBHZgawFhP/5q/KmGA5K+krA4asJV/Rn9OrJTwaa6uKotOS2HTiMLaKkLu69jAYhKYzeVLyOoY7H/LahBws0gmuAydgYPvJ6pc6nzuZDFdE+lJesWTWIXgOUmJvlgblfp5y/ITLDdT94fRbPo7DZJitB9YpAAAAIBnxSYn9gDTNFTw0mTPHwTHeT6hAtC+bN6mhR3AmrOHRakeLbm7KIZPzg70Q92HElmHrXGaY02eoRIqJNKdPUuZ1tqc7ph1tfov2nhzX8IQ3DlICdfrqBGfHLxfTAqTKijVoDoEfv0sKOYQi4j9QVljYzP3zVEX6ct7vAvEwytssw==
+    network_eth0: 192.168.69.0
+    productname: VMware Virtual Platform
+    uptime_seconds: "94579"
+    lsbdistid: Debian
+    clientcert: login.example.com
+  time: 2011-02-24 12:00:42.475924 -05:00

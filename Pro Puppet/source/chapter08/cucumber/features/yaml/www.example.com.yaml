@@ -1,0 +1,85 @@
+--- !ruby/object:Puppet::Node
+  classes: []
+  environment: &id003 production
+  expiration: 2011-02-24 20:23:08.719084 -05:00
+  name: www.example.com
+  parameters: 
+    sp_boot_rom_version: MBP71.0039.B0B
+    sp_number_processors: "2"
+    kernelmajversion: "10.6"
+    kernelversion: 10.6.0
+    sp_secure_vm: secure_vm_enabled
+    netmask_vmnet8: 255.255.255.0
+    clientversion: &id001 2.6.4
+    sp_machine_name: MacBook Pro
+    sp_kernel_version: Darwin 10.6.0
+    rubysitedir: /Users/jeff/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8
+    clientcert: www.example.com
+    sp_platform_uuid: 0DCCCC4C-FE89-514C-8DF8-4F056A13DE4F
+    ipaddress_tun0: 192.168.101.30
+    ps: ps auxwww
+    macosx_productversion_major: "10.6"
+    sp_machine_model: "MacBookPro7,1"
+    hostname: heif
+    macaddress_vmnet1: 00:50:56:c0:00:01
+    kernelrelease: &id002 10.6.0
+    sp_smc_version_system: 1.62f5
+    !ruby/sym _timestamp: Thu Feb 24 19:53:08 -0500 2011
+    kernel: &id004 Darwin
+    sp_current_processor_speed: 2.66 GHz
+    sp_mmm_entry: MMM_stateMMM_enabled
+    uptime_seconds: "523687"
+    facterversion: 1.5.8
+    sp_boot_volume: Macintosh HD
+    sp_local_host_name: heif
+    sp_boot_mode: normal_boot
+    sp_serial_number: WQ0160YNATN
+    ipaddress_vmnet1: 172.16.35.1
+    network_vmnet1: 172.16.35.0
+    sp_packages: "1"
+    network_tun0: 192.168.101.30
+    interfaces: "lo0,gif0,stf0,en0,en1,fw0,vmnet1,vmnet8,tun0"
+    sshdsakey: AAAAB3NzaC1kc3MAAACBAKQtukTkY7zS73vMljzLxLzaVW9fZljJLAqAiGiPQQwLuIFowvtC5wsl+bC883wwFn6rlqcEp38XCW5BQoqpA/VTdl1o75G2m6EmBPcZpyiB0z9sIwL3sX6EhVl5uTw1nfmarYDFr7Xu8e1F8qO7cGs676hEjoNgS7OZ+IIftnsZAAAAFQCjFou1o1yrgVZ5UWXVU7Fyxk7AJwAAAIB7XAvQGc5QTtgOuYvj+FDFAay4IRWMeMAMzyQuDf3LtBm741hgp1eyghYmI4Vpg5cT2mn/P8cGm24PsYaLro/opZij1UrTS/noVVyqR5XxKQ62zb3gbdGsFiBqDhL5gEbN5nqlBcsNQez4vCVNCE9u6xIMnQ6lohPcIrPDAV3bKwAAAIAeMoKaqRLCSoK2BeoeEnv0o9WIimvFlYim8EmT5AGgKkbioGpyUcLKwz7agYAnXKlYRWwLQ40x9eW3nWk/6H13G7GNVSZWVfZoVUkjWBZ589h6FPfTq/qj5y/ED+pTn9zq250H+/B4NIKhw1gfji/yb7qJ6sI9fxsg0BLSVbJIog==
+    uptime: 6 days
+    timezone: EST
+    puppetversion: *id001
+    path: /Users/jeff/src/puppet/sbin:/Users/jeff/src/puppet/bin:/Users/jeff/src/facter/bin:/Users/jeff/src/puppet-scaffold/bin:/Users/jeff/src/puppet-module-tool/bin:/Users/jeff/.rvm/gems/ruby-1.8.7-p302/bin:/Users/jeff/.rvm/gems/ruby-1.8.7-p302@global/bin:/Users/jeff/.rvm/rubies/ruby-1.8.7-p302/bin:/Users/jeff/.rvm/bin:/Users/jeff/src/puppet/sbin:/Users/jeff/src/puppet/bin:/Users/jeff/src/facter/bin:/Users/jeff/src/puppet-scaffold/bin:/Users/jeff/src/puppet-module-tool/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/jeff/customization/bin:/Users/jeff/bin:/Users/jeff/.gem/ruby/1.8/bin:/usr/local/sbin:/opt/local/sbin:/opt/local/bin:/Library/Application Support/VMware Fusion
+    hardwaremodel: i386
+    fqdn: www.example.com
+    sp_os_version: Mac OS X 10.6.6 (10J567)
+    sp_64bit_kernel_and_kexts: "no"
+    macaddress_en0: 58:b0:35:f2:47:a3
+    uptime_days: "6"
+    operatingsystemrelease: *id002
+    sp_cpu_type: Intel Core 2 Duo
+    sshrsakey: AAAAB3NzaC1yc2EAAAABIwAAAQEAy7lrgErefIFXAfaQ+TTdKv+Y26LV0Zd+HIa3AJZQekcSXZxuofgjKMJLyVvC1Qums1p3uU6OuOOLJXynTNsNfg/wQdODFpip/doAuf+Lc9lLGX6Cg83I9Qq7K64uoXfPkGWquvMBy++tF6QvsRPF7IZJGqqwCeirIdkYtMtzSlassu210U/XrPPFa3BagXdp1VZ0JV4MPt3CVJsIMJqFrSDlv3PbTrTu10n4tpdmgca6IJtXMwaoRszrFQERyOX0e40/AjC4taY/CeOm9i2Hx6zu28PeW3Wy7g7uLPGp1UqvraHO+oqoaYHMPXNtn2FJFktKbspKM+IHR9sbm2133Q==
+    environment: *id003
+    macosx_productversion_minor: "6"
+    macaddress_en1: f8:1e:df:ea:ed:5c
+    macaddress_vmnet8: 00:50:56:c0:00:08
+    netmask_lo0: 255.0.0.0
+    rubyversion: 1.8.7
+    ipaddress_lo0: 127.0.0.1
+    netmask_vmnet1: 255.255.255.0
+    sp_user_name: Jeff McCune (jeff)
+    ipaddress: 192.168.1.107
+    network_lo0: 127.0.0.0
+    sp_physical_memory: 8 GB
+    ipaddress_vmnet8: 192.168.69.1
+    network_vmnet8: 192.168.69.0
+    netmask_en1: 255.255.255.0
+    sp_uptime: up 6:1:28:36
+    macosx_productname: Mac OS X
+    ipaddress_en1: 192.168.1.107
+    sp_l2_cache: 3 MB
+    macosx_buildversion: 10J567
+    macaddress_fw0: 7c:6d:62:ff:fe:ff
+    network_en1: 192.168.1.0
+    domain: local
+    uptime_hours: "145"
+    sp_bus_speed: 1.07 GHz
+    netmask: 255.255.255.0
+    netmask_tun0: 255.255.255.255
+    macosx_productversion: 10.6.6
+    operatingsystem: *id004
+  time: 2011-02-24 19:53:08.717919 -05:00

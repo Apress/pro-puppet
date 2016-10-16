@@ -1,0 +1,13 @@
+[main]
+    user = puppet
+    group = puppet
+    report = true
+    reports = log,store
+
+[master]
+    certname = <%= puppetserver %>
+
+[agent]
+    pluginsync = false
+    report = true
+    server = <%= puppetserver %>

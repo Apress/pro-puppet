@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="824.44">
+  <style type="text/css">
+    p.p1 {margin: 8.0px 0.0px 0.0px 0.0px; line-height: 12.0px; font: 10.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 12.0px; font: 10.0px Helvetica}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 12.0px; font: 10.0px Helvetica; min-height: 12.0px}
+    p.p4 {margin: 0.0px 0.0px 8.0px 0.0px; line-height: 12.0px; font: 10.0px Helvetica}
+  </style>
+</head>
+<body>
+<p class="p1"># LDIF Export for: ou=Hosts,dc=testing,dc=com</p>
+<p class="p2">dn: ou=Hosts,dc=testing,dc=com</p>
+<p class="p2">objectClass: organizationalUnit</p>
+<p class="p2">objectClass: top</p>
+<p class="p2">ou: Hosts</p>
+<p class="p3"><br></p>
+<p class="p2">dn: cn=basenode,ou=Hosts,dc=testing,dc=com</p>
+<p class="p2">cn: basenode</p>
+<p class="p2">description: Basenode</p>
+<p class="p2">objectClass: device</p>
+<p class="p2">objectClass: top</p>
+<p class="p2">objectClass: puppetClient</p>
+<p class="p2">puppetclass: baseapps</p>
+<p class="p3"><br></p>
+<p class="p2">dn: cn=webserver,ou=Hosts,dc=testing,dc=com</p>
+<p class="p2">cn: webserver</p>
+<p class="p2">description: Basenode</p>
+<p class="p2">objectClass: device</p>
+<p class="p2">objectClass: top</p>
+<p class="p2">objectClass: puppetClient</p>
+<p class="p2">parentnode: basenode</p>
+<p class="p2">puppetclass: apache</p>
+<p class="p2">puppetclass: squid</p>
+<p class="p4">puppetclass: named</p>
+</body>
+</html>

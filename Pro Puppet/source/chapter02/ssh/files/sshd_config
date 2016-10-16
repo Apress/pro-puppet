@@ -1,0 +1,6 @@
+Port 22
+Protocol 2
+SyslogFacility AUTHPRIV
+PermitRootLogin no
+PasswordAuthentication yes
+UsePAM yes

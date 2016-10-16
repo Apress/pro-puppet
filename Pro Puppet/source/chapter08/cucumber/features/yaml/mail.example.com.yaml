@@ -1,0 +1,54 @@
+--- !ruby/object:Puppet::Node
+  classes: []
+  environment: production
+  expiration: 2011-02-20 20:57:46.751877 -06:00
+  name: mail.example.com
+  parameters: 
+    netmask: 255.255.255.0
+    kernel: SunOS
+    uniqueid: 2c3668f6
+    operatingsystemrelease: "5.10"
+    netmask_lo0: 255.0.0.0
+    fqdn: mail.example.com
+    ipaddress: 192.168.69.131
+    is_virtual: "true"
+    virtual: vmware
+    clientversion: 2.6.4 (Puppet Enterprise 1.0)
+    ps: ps -ef
+    netmask_e1000g0: 255.255.255.0
+    kernelrelease: "5.10"
+    hardwaremodel: i86pc
+    rubysitedir: /opt/puppet/lib/ruby/site_ruby/1.8
+    domain: localdomain
+    uptime_days: "0"
+    id: root
+    timezone: PST
+    !ruby/sym _timestamp: Sun Feb 20 18:27:46 -0800 2011
+    type: 0x1 (other)
+    uptime_hours: "9"
+    hardwareisa: i386
+    network_lo0: 127.0.0.0
+    manufacturer: "VMware, Inc."
+    interfaces: "lo0,e1000g0"
+    network_e1000g0: 192.168.69.0
+    kernelversion: Generic_142910-17
+    ipaddress_lo0: 127.0.0.1
+    path: /opt/puppet/bin:/opt/csw/bin:/opt/csw/bin:/usr/sbin:/usr/bin:/usr/local/git/bin:/usr/local/git/sbin:/usr/local/git/bin:/usr/local/git/sbin:/sbin
+    ipaddress_e1000g0: 192.168.69.131
+    uptime: 9:56 hours
+    puppetversion: 2.6.4 (Puppet Enterprise 1.0)
+    hostname: solbuild
+    environment: production
+    serialnumber: VMware-56 4d 56 a3 13 fc c1 6e-cb af 2a eb 86 0b 3e 3a
+    operatingsystem: Solaris
+    kernelmajversion: Generic_142910-17
+    facterversion: 1.5.8
+    sshrsakey: AAAAB3NzaC1yc2EAAAABIwAAAIEA63yOsETchPCMz7Yz0NyL9+yJC9iIeKVnkZvIJn/XL/yWWF1GVyNx2CA4Vjg98gEtH8G4vPOVtS70Ou7fjH4m3gUmHLw//W8zgZUNSwpOytClYr4c/WgcUPuUwP2XKMPyRQXrFLG4m3dWLy4hj2fiaviPU1A6xe9YC304WG7Af4s=
+    macaddress: 0:c:29:b:3e:3a
+    rubyversion: 1.8.7
+    macaddress_e1000g0: 0:c:29:b:3e:3a
+    uptime_seconds: "35806"
+    sshdsakey: AAAAB3NzaC1kc3MAAACBAI47I9AIPaPAcHR0OSI4vtTggsf45oQElvshEte7N88p+WEVOc27pJpF5egLmmslaBjUkHiMxcUJWO3YRDcDQPV2d513uzXtWzMfS6SMgg8x2mM+CqZzu0yTA+xVTZUyg8W5EZNaUBj6rKCoF7bnecpeufG5IwgJi+QdsKlIxT9BAAAAFQDonQMhOco741eTzRh+yqY+ddaUOwAAAIAL9YCde0TiANuS5123Fhcg9Kbzla+HQtNn6p6Flseafql2pplg8klefKrFlZRVt1USQzcl9eAxSpl3EPoFxe0HVbHEGTsV5JkRuPAA27xztobdYuwZC8hbsFHfTRZ9g/QK1Hvh8fUwBJlbedv2r/DeYL/uGKnjdwISgNG0RcCrsAAAAIAdRURNbnKY8ElZ1B/S/5dG6aKkbliUbhNPN2DSzJ17DBG4bkBTGuLBOmy4yB/23x/DJg+4rXkDowR49SGMx5KZIvASZ/6GQMKYAAzQjzSTPIpxyrvpE4IuBnRq6De2MuVbsrO7yKIrlBdWkgteWLrXYOq9JzGWnEndYAZmbk+kgA==
+    productname: VMware Virtual Platform
+    clientcert: mail.example.com
+  time: 2011-02-20 20:27:46.750957 -06:00
